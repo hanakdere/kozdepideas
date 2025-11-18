@@ -1,0 +1,731 @@
+
+  {
+  "updated": "2025-11-16",
+  "items": [
+    {
+      "id": "p1",
+      "name": "Mini Muzlu Rulo",
+      "desc": "İnce hamur içinde muzlu kremalı küçük rulo.",
+      "category": "Tatlılar",
+      "price": "Adet 25 TL / KG 350 TL",
+      "tags": ["muz","süt","gluten","şeker"],
+      "image": "rulo.jpg"
+    },
+    {
+      "id": "p2",
+      "name": "Susamlı Çubuk",
+      "desc": "Günlük, gevrek susamlı çubuk.",
+      "category": "Kurabiye & Tatlı",
+      "price": "Porsiyon 50 TL / KG 400 TL",
+      "tags": ["vejetaryen","gluten","susam","un"],
+      "image": "çubuk.jpg"
+    },
+    {
+      "id": "p3",
+      "name": "Elmalı Turta Kurabiye",
+      "desc": "Elmalı dolgu ile tatlandırılmış turta kurabiye.",
+      "category": "Kurabiye & Tatlı",
+      "price": "Adet 40 TL",
+      "tags": ["elma","gluten","şeker","un"],
+      "image": "elmalı.jpg"
+    },
+    {
+      "id": "p4",
+      "name": "Kıymalı Kol Böreği",
+      "desc": "Tereyağı, sıvı yağ, kıyma, soğan ve baharatlarla hazırlanmış kol böreği.",
+      "category": "Börekler",
+      "price": "Porsiyon 90 TL / KG 350 TL",
+      "tags": ["gluten","kıyma","soğan","baharat","tereyağı","süt"],
+      "image": "images/borek_kiymali_kol.jpg"
+    },
+    {
+      "id": "p5",
+      "name": "Peynirli Kol Böreği",
+      "desc": "Tereyağı ve tam yağlı peynirle hazırlanmış kol böreği.",
+      "category": "Börekler",
+      "price": "Porsiyon 90 TL / KG 350 TL",
+      "tags": ["gluten","peynir","tereyağı","süt"],
+      "image": "images/borek_peynirli_kol.jpg"
+    },
+    {
+      "id": "p6",
+      "name": "Patatesli Kol Böreği",
+      "desc": "Tereyağı ve doğal patatesle hazırlanmış kol böreği.",
+      "category": "Börekler",
+      "price": "Porsiyon 90 TL / KG 350 TL",
+      "tags": ["gluten","patates","tereyağı","süt"],
+      "image": "images/borek_patatesli_kol.jpg"
+    },
+    {
+      "id": "p7",
+      "name": "Su Böreği",
+      "desc": "Tereyağı ve tam yağlı kaşar peyniriyle hazırlanmış su böreği.",
+      "category": "Börekler",
+      "price": "Porsiyon 90 TL / KG 350 TL",
+      "tags": ["gluten","peynir","tereyağı","süt"],
+      "image": "images/borek_su_boregi.jpg"
+    },
+    {
+      "id": "p8",
+      "name": "Gül Böreği",
+      "desc": "İçinde patates ve baharatlarla sarılmış gül şeklinde börek.",
+      "category": "Börekler",
+      "price": "Adet 35 TL",
+      "tags": ["gluten","patates","baharat","tereyağı","süt"],
+      "image": "gülb.jpg"
+    },
+    {
+      "id": "p9",
+      "name": "Ay Çöreği",
+      "desc": "Tereyağlı ve hafif tatlı ay şekilli çörek.",
+      "category": "Kurabiye & Tatlı",
+      "price": "Adet 40 TL",
+      "tags": ["gluten","süt","şeker","un","tereyağı"],
+      "image": "images/kurabiye_ay_coregi.jpg"
+    },
+    {
+      "id": "p10",
+      "name": "Karışık Kurabiye",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Kurabiye & Tatlı",
+      "price": "Porsiyon 80 TL / KG 400 TL",
+      "tags": ["ceviz","çikolata","gluten","süt","un","şeker"],
+      "image": "kurupasta.jpg"
+    },
+    {
+      "id": "p11",
+      "name": "Çerkeş Kurabiyesi",
+      "desc": "Çerkeş’e özgü tarifiyle yapılan özel kurabiye.",
+      "category": "Kurabiye & Tatlı",
+      "price": "Porsiyon 75 TL / KG 300 TL",
+      "tags": ["gluten","süt","un","yağ"],
+      "image": "porsiyonçerkes.jpg"
+    },
+    {
+      "id": "p12",
+      "name": "Üzümlü Turta Kurabiye",
+      "desc": "Kıtır hamurlu ve üzümlü turta kurabiye.",
+      "category": "Kurabiye & Tatlı",
+      "price": "Adet 40 TL",
+      "tags": ["üzüm","gluten","şeker","un","süt"],
+      "image": "üzümlü.jpg"
+    },
+    {
+      "id": "p13",
+      "name": "çikolatalı Ekler",
+      "desc": "vanilya dolgulu kremalı ekler.",
+      "category": "Tatlılar",
+      "price": "Porsiyon 60 TL / KG 350 TL",
+      "tags": ["süt","yumurta","gluten","un","şeker"],
+      "image": "ekler.jpg"
+    },
+    {
+      "id": "p61",
+      "name": "frambuazlı Ekler",
+      "desc": " vanilya dolgulu kremalı ekler.",
+      "category": "Tatlılar",
+      "price": "Porsiyon 60 TL / KG 350 TL",
+      "tags": ["süt","yumurta","gluten","un","şeker"],
+      "image": "eklerfran.jpg"
+    },
+    {
+      "id": "p62",
+      "name": "hindistan cevizli Ekler",
+      "desc": " vanilya dolgulu kremalı ekler.",
+      "category": "Tatlılar",
+      "price": "Porsiyon 60 TL / KG 350 TL",
+      "tags": ["süt","yumurta","gluten","un","şeker"],
+      "image": "hintekler.jpg"
+    },
+    {
+      "id": "p63",
+      "name": "karamelli triliçe",
+      "desc": "karamelli sütlü pandispanya keki.",
+      "category": "Tatlılar",
+      "price": "Porsiyon 70 TL ",
+      "tags": ["süt","yumurta","gluten","un","şeker"],
+      "image": "karameltriliçe.jpg"
+    },
+    {
+      "id": "p64",
+      "name": "frambuazlı triliçe",
+      "desc": "frambuaz sütlü pandispanya keki.",
+      "category": "Tatlılar",
+      "price": "Porsiyon 70 TL ",
+      "tags": ["süt","yumurta","gluten","un","şeker"],
+      "image": "franbuaztriliçe.jpg"
+    },
+    {
+      "id": "p65",
+      "name": "Poğaça (zeytinli)",
+      "desc": "Taze ve yumuşak zeytinli poğaça.",
+      "category": "Hamur",
+      "price": "Adet 20 TL",
+      "tags": ["süt","yumurta","gluten","un","zeytin"],
+      "image": "zeytinlipoça.jpg"
+    },
+   {
+      "id": "p66",
+      "name": "Tereyağlı simit",
+      "desc": "Taze ve çıtır tereyağlı simit.",
+      "category": "Hamur",
+      "price": "Adet 20 TL",
+      "tags": ["süt","yumurta","gluten","un","tereyağı"],
+      "image": "tereyağlısimit.jpg"
+    }, 
+    {
+      "id": "p67",
+      "name": "Poğaça (kaşarlı)",
+      "desc": "Taze ve yumuşak kaşarlı poğaça.",
+      "category": "Hamur",
+      "price": "Adet 20 TL",
+      "tags": ["süt","yumurta","gluten","un","tereyağı"],
+      "image": "kaşarlıpoça.jpg"
+    }, 
+   
+    {
+      "id": "p14",
+      "name": "Truff Top",
+      "desc": "Çikolatalı ve fındıklı toplar (truff tarzı).",
+      "category": "Tatlılar",
+      "price": "Porsiyon 70 TL / KG 350 TL",
+      "tags": ["çikolata","süt","fındık","şeker"],
+      "image": "top.jpg"
+    },
+    {
+      "id": "p15",
+      "name": "Supangle",
+      "desc": "Yoğun çikolatalı klasik supangle.",
+      "category": "Tatlılar",
+      "price": "Adet 70 TL",
+      "tags": ["çikolata","süt","un","şeker"],
+      "image": "supangle.jpg"
+    },
+    {
+      "id": "p16",
+      "name": "Profiterol",
+      "desc": "Çikolata soslu kremalı profiterol.",
+      "category": "Tatlılar",
+      "price": "Adet 70 TL",
+      "tags": ["süt","yumurta","gluten","un","çikolata","şeker"],
+      "image": "progfeterol.jpg"
+    },
+    {
+      "id": "p17",
+      "name": "Poğaça (Sade)",
+      "desc": "Taze ve yumuşak sade poğaça.",
+      "category": "Hamur",
+      "price": "Adet 15 TL",
+      "tags": ["gluten","süt","un","tereyağı"],
+      "image": "sadepoça.jpg"
+    },
+    {
+      "id": "p18",
+      "name": "Simit",
+      "desc": "Geleneksel, susamlı simit.",
+      "category": "Hamur",
+      "price": "Adet 15 TL",
+      "tags": ["gluten","un","susam","süt"],
+      "image": "simit.jpg"
+    },
+    {
+      "id": "p19",
+      "name": "Pizza (Mini)",
+      "desc": "Taze hamur, peynir ve soslu mini pizza.",
+      "category": "Hamur",
+      "price": "Adet 35 TL",
+      "tags": ["gluten","süt","un","domates","peynir"],
+      "image": "pizza.jpg"
+    },
+    {
+      "id": "p20",
+      "name": "Kır Pidesi",
+      "desc": "Taze ve yumuşak kır pidesi.",
+      "category": "Hamur",
+      "price": "Adet 25 TL",
+      "tags": ["gluten","süt","un"],
+      "image": "kırpidesi.jpg"
+    },
+  {
+    "id": "p21",
+    "name": "Dereotlu Poğaça",
+    "desc": "Taze ve yumuşak, içi dereotulu poğaça.",
+    "category": "Hamur",
+    "price": "Adet 20 TL",
+    "tags": ["gluten","süt","dereotu","un","tereyağı"],
+    "image": "dereotlu.jpg"
+  },
+  {
+    "id": "p22",
+    "name": "Poğaça (Peynirli)",
+    "desc": "Tam yağlı peynir ile hazırlanmış poğaça.",
+    "category": "Hamur",
+    "price": "Adet 15 TL",
+    "tags": ["süt","gluten","peynir","un","tereyağı"],
+    "image": "peynirlipoça.jpg"
+  },
+  {
+    "id": "p23",
+    "name": "Poğaça (Patatesli)",
+    "desc": "Baharatlı patates dolgulu yumuşak poğaça.",
+    "category": "Hamur",
+    "price": "Adet 15 TL",
+    "tags": ["gluten","patates","un","tereyağı","baharat"],
+    "image": "patateslipça.jpg"
+  },
+  {
+    "id": "p24",
+    "name": "Açma (Sade)",
+    "desc": "Tereyağlı, yumuşak sade açma.",
+    "category": "Hamur",
+    "price": "Adet 15 TL",
+    "tags": ["süt","gluten","un","tereyağı"],
+    "image": "sadeaçma.jpg"
+  },
+  {
+    "id": "p25",
+    "name": "Poğaça (Mayasız)",
+    "desc": "Tereyağlı, mayasız poğaça.",
+    "category": "Hamur",
+    "price": "Adet 15 TL",
+    "tags": ["süt","gluten","un","tereyağı"],
+    "image": "mayasız.jpg"
+  },
+  {
+    "id": "p26",
+    "name": "Açma (Kaşarlı)",
+    "desc": "İçinde eritilmiş kaşar peyniri bulunan açma.",
+    "category": "Hamur",
+    "price": "Adet 20 TL",
+    "tags": ["süt","gluten","peynir","un","tereyağı"],
+    "image": "kaşarlıaçma.jpg"
+  },
+  {
+    "id": "p27",
+    "name": "Açma (Patatesli)",
+    "desc": "Patates dolgulu yumuşak açma.",
+    "category": "Hamur",
+    "price": "Adet 20 TL",
+    "tags": ["süt","gluten","patates","un","tereyağı","baharat"],
+    "image": "patatesliaçma.jpg"
+  },
+  {
+    "id": "p28",
+    "name": "Açma (Cevizli)",
+    "desc": "İçinde ceviz bulunan tatlı açma.",
+    "category": "Hamur",
+    "price": "Adet 20 TL",
+    "tags": ["ceviz","gluten","süt","un","şeker","tereyağı"],
+    "image": "cevizliaçma.jpg"
+  },
+  {
+    "id": "p29",
+    "name": "Açma (Çikolatalı)",
+    "desc": "İçinde çikolata parçacıkları bulunan açma.",
+    "category": "Hamur",
+    "price": "Adet 20 TL",
+    "tags": ["çikolata","gluten","süt","un","şeker","tereyağı"],
+    "image": "çikolatalıaçma.jpg"
+  },
+  {
+    "id": "p30",
+    "name": "Açma (Peynirli)",
+    "desc": "İçinde eritilmiş kaşar peyniri bulunan açma.",
+    "category": "Hamur",
+    "price": "Adet 20 TL",
+    "tags": ["peynir","gluten","süt","un","tereyağı"],
+    "image": "peynirliaçma.jpg"
+  },
+
+  {
+    "id": "p31",
+    "name": "Baklava ",
+    "desc": "Sıcak baklava ",
+    "category": "Tatlılar",
+    "price": "Porsiyon 90 TL / KG 450 TL",
+    "tags": ["ceviz","şeker","gluten","un","tereyağı"],
+    "image": "baklava.jpg"
+  },
+  {
+    "id": "p58",
+    "name": " Soğuk Baklava",
+    "desc": "soğuk baklava seçenekleri.",
+    "category": "Tatlılar",
+    "price": "Porsiyon 100 TL / KG 500 TL",
+    "tags": ["süt","ceviz","şeker","gluten","un","tereyağı"],
+    "image": "soğukbaklava.jpg"
+  },
+  {
+    "id": "p32",
+    "name": "Şekerpare ",
+    "desc": "Şekerpare tatlıları (gramajlı).",
+    "category": "Tatlılar",
+    "price": "Porsiyon 75 TL / KG 300 TL",
+    "tags": ["şeker","gluten","un","tereyağı"],
+    "image": "şekerpare.jpg"
+  },
+  {
+    "id": "p59",
+    "name": " Tulumba",
+    "desc": "tulumba tatlıları (gramajlı).",
+    "category": "Tatlılar",
+    "price": "Porsiyon 60 TL / KG 250 TL",
+    "tags": ["şeker","gluten","un","tereyağı"],
+    "image": "tlumba.jpg"
+  },
+  {
+    "id": "p55",
+    "name": "Baton muzlu Pasta",
+    "desc": " çeşit seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 400 TL",
+    "tags": ["özel","sipariş"],
+    "image": "batonmuz.jpg"
+  },
+  {
+    "id": "p56",
+    "name": "Baton çikolatalı Pasta",
+    "desc": "çeşit seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 400 TL",
+    "tags": ["özel","sipariş"],
+    "image": "batonçikolata.jpg"
+  },
+  {
+    "id": "p57",
+    "name": "Küçük muzlu porsiyon pasta",
+    "desc": "çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 75 TL",
+    "tags": ["özel","sipariş"],
+    "image": "porsiyonpasta.jpg"
+  },
+  {
+    "id": "p60",
+    "name": "Küçük çikolatalı porsiyon pasta",
+    "desc": "çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 75 TL",
+    "tags": ["özel","sipariş"],
+    "image": "küçükçikolata.jpg"
+  },
+  {
+    "id": "p33",
+    "name": "0 Nolu muzlu Pasta",
+    "desc": "Özel 0 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 480 TL",
+    "tags": ["özel","sipariş"],
+    "image": "0noluhasbahçe.jpg"
+  },
+  {
+    "id": "p34",
+    "name": "0 Nolu uğurböceği Pasta",
+    "desc": "Özel 0 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 480 TL",
+    "tags": ["özel","sipariş"],
+    "image": "uğurböcek.jpg"
+  },
+  {
+    "id": "p35",
+    "name": "0 Nolu çikolatalı Pasta",
+    "desc": "Özel 0 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 450 TL",
+    "tags": ["özel","sipariş"],
+    "image": "images/nolu_pasta0.jpg"
+  },
+  {
+    "id": "p36",
+    "name": "0 Nolu muzlu-çikolatalı Pasta",
+    "desc": "Özel 0 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 480 TL",
+    "tags": ["özel","sipariş"],
+    "image": "images/nolu_pasta0.jpg"
+  },
+  {
+    "id": "p37",
+    "name": "0 Nolu frambuazlı Pasta",
+    "desc": "Özel 0 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 480 TL",
+    "tags": ["özel","sipariş"],
+    "image": "onolufranbuaz.jpg"
+  },
+  {
+    "id": "p38",
+    "name": "1 Nolu çikolatalı Pasta",
+    "desc": "Özel 1 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 650 TL",
+    "tags": ["özel","sipariş"],
+    "image": "1noluçikolatalı.jpg"
+  },
+  {
+    "id": "p39",
+    "name": "1 Nolu muzlu Pasta",
+    "desc": "Özel 1 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 680 TL",
+    "tags": ["özel","sipariş"],
+    "image": "1noluhasbahçe.jpg"
+  },
+  {
+    "id": "p40",
+    "name": "1 Nolu muzlu-çikolatalı Pasta",
+    "desc": "Özel 1 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 680 TL",
+    "tags": ["özel","sipariş"],
+    "image": "1nolumuzluçikolatalı.jpg"
+  },
+  {
+    "id": "p41",
+    "name": "1 Nolu frambuazlı Pasta",
+    "desc": "Özel 1 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 680 TL",
+    "tags": ["özel","sipariş"],
+    "image": "1nolufranbuaz.jpg"
+  },
+  {
+    "id": "p42",
+    "name": "1 Nolu uğurböceği Pasta",
+    "desc": "Özel 1 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 680 TL",
+    "tags": ["özel","sipariş"],
+    "image": "images/nolu_pasta1.jpg"
+  },
+  {
+    "id": "p43",
+    "name": "2 Nolu çikolatalı Pasta",
+    "desc": "Özel 2 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 750 TL",
+    "tags": ["özel","sipariş"],
+    "image": "2noluçikolaalı.jpg"
+  },
+  {
+    "id": "p44",
+    "name": "2 Nolu muzlu Pasta",
+    "desc": "Özel 2 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 800 TL",
+    "tags": ["özel","sipariş"],
+    "image": "images/nolu_pasta2.jpg"
+  },
+  {
+    "id": "p45",
+    "name": "2 Nolu muzlu-çikolatalı Pasta",
+    "desc": "Özel 2 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 800 TL",
+    "tags": ["özel","sipariş"],
+    "image": "images/nolu_pasta2.jpg"
+  },
+  {
+    "id": "p46",
+    "name": "2 Nolu frambuazlı Pasta",
+    "desc": "Özel 2 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 780 TL",
+    "tags": ["özel","sipariş"],
+    "image": "images/nolu_pasta2.jpg"
+  },
+  {
+    "id": "p47",
+    "name": "2 Nolu uğurböceği Pasta",
+    "desc": "Özel 2 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 800 TL",
+    "tags": ["özel","sipariş"],
+    "image": "images/nolu_pasta2.jpg"
+  },
+    {
+      "name": "Çay",
+      "category": "Sıcak İçecekler",
+      "price": "10₺",
+      "image": "çay.jpg",
+      "desc": "Sıcak çay",
+      "tags": ["sıcak","çay"]
+    },
+    {
+      "name": "Kahve",
+      "category": "Sıcak İçecekler",
+      "price": "30₺",
+      "image": "kahve.jpg",
+      "desc": "Taze demlenmiş kahve",
+      "tags": ["sıcak","kahve"]
+    },
+    {
+      "name": "Oralet",
+      "category": "Sıcak İçecekler",
+      "price": "10₺",
+      "image": "oralet.jpeg",
+      "desc": "Soğuk içecek",
+      "tags": ["soğuk","meyve"]
+    },
+    {
+      "name": "Kuşburnu",
+      "category": "Sıcak İçecekler",
+      "price": "10₺",
+      "image": "kuşburnu.jpg",
+      "desc": "Vitamin deposu",
+      "tags": ["soğuk","meyve"]
+    },
+    {
+      "name": "Nanelimon",
+      "category": "Sıcak İçecekler",
+      "price": "10₺",
+      "image": "nanelimon.jpeg",
+      "desc": "Ferahlatıcı içecek",
+      "tags": ["soğuk","meyve"]
+    },
+    {
+      "name": "Su",
+      "category": "Soğuk İçecekler",
+      "price": "10₺",
+      "image": "su.jpg",
+      "desc": "Mineralli su",
+      "tags": ["soğuk"]
+    },
+    {
+      "name": "Meyve Suyu",
+      "category": "Soğuk İçecekler",
+      "price": "20₺",
+      "image": "küçükmeyv.avif",
+      "desc": "Çeşitli meyve suları",
+      "tags": ["soğuk","meyve"]
+    },
+    {
+      "name": "Maden Suyu",
+      "category": "Soğuk İçecekler",
+      "price": "25₺",
+      "image": "sade.png",
+      "desc": "Soda",
+      "tags": ["soğuk"]
+    },
+    {
+      "name": "Litrelik Kola",
+      "category": "Soğuk İçecekler",
+      "price": "60₺",
+      "image": "küçükkola.jpg",
+      "desc": "1 L kola",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "2,5 Litrelik Kola",
+      "category": "Soğuk İçecekler",
+      "price": "80₺",
+      "image": "büyükkola.jpg",
+      "desc": "2,5 L kola",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "Teneke Kola",
+      "category": "Soğuk İçecekler",
+      "price": "60₺",
+      "image": "colateneke.jpg",
+      "desc": "330 ml kola",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "Teneke Fanta",
+      "category": "Soğuk İçecekler",
+      "price": "60₺",
+      "image": "tenekefanta.jpeg",
+      "desc": "Fanta 330 ml",
+      "tags": ["soğuk","gazlı"]
+    },
+     {
+      "name": "Litrelik Fanta",
+      "category": "Soğuk İçecekler",
+      "price": "60₺",
+      "image": "litrelikfanta.jpeg",
+      "desc": "Fanta 330 ml",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "2,5 Litrelik Fanta",
+      "category": "Soğuk İçecekler",
+      "price": "60₺",
+      "image": "büyükfanta.jpg",
+      "desc": "Fanta 2,5 L",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "Litrelik Meyve Suyu",
+      "category": "Soğuk İçecekler",
+      "price": "70₺",
+      "image": "litremeyv.jpg",
+      "desc": "1 L meyve suyu",
+      "tags": ["soğuk","meyve"]
+    },
+ {
+    "id": "p48",
+    "name": "15 kişilik sipariş pasta",
+    "desc": "Özel sipariş pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "özel siparişler",
+    "price": "Adet 1300 TL",
+    "tags": ["özel","sipariş"],
+    "image": "images/ozel_siparis1.jpg"
+  },
+  {
+    "id": "p49",
+    "name": "20 kişilik sipariş pasta",
+    "desc": "Özel sipariş pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "özel siparişler",
+    "price": "Adet 1700 TL",
+    "tags": ["özel","sipariş"],
+    "image": "images/ozel_siparis2.jpg"
+  },
+  {
+    "id": "p50",
+    "name": "25 kişilik sipariş pasta",
+    "desc": "Özel sipariş pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "özel siparişler",
+    "price": "Adet 2000 TL",
+    "tags": ["özel","sipariş"],
+    "image": "images/ozel_siparis3.jpg"
+  },
+  {
+    "id": "p51",
+    "name": "30 kişilik sipariş pasta",
+    "desc": "Özel sipariş pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "özel siparişler",
+    "price": "Adet 2400 TL",
+    "tags": ["özel","sipariş"],
+    "image": "images/ozel_siparis4.jpg"
+  },
+  {
+    "id": "p52",
+    "name": "35 kişilik sipariş pasta",
+    "desc": "Özel sipariş pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "özel siparişler",
+    "price": "Adet 2800 TL",
+    "tags": ["özel","sipariş"],
+    "image": "images/ozel_siparis5.jpg"
+  },
+  {
+    "id": "p53",
+    "name": "40 kişilik sipariş pasta",
+    "desc": "Özel sipariş pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "özel siparişler",
+    "price": "Adet 3500 TL",
+    "tags": ["özel","sipariş"],
+    "image": "images/ozel_siparis6.jpg"
+  },
+  {
+    "id": "p54",
+    "name": "50 kişilik sipariş pasta",
+    "desc": "Özel sipariş pasta — çeşit ve boy seçenekleri için sorunuz.",
+    "category": "özel siparişler",
+    "price": "Adet 4000 TL",
+    "tags": ["özel","sipariş"],
+    "image": "images/ozel_siparis7.jpg"
+  }
+  ]
+  }

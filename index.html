@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Közde Pide & Lahmacun Salonu - Menü</title>
+
+
+<style>
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color: #2d0de6;
+    -webkit-font-smoothing: antialiased;
+    background: url('dar.png') center center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+  }
+
+  .dar-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('plan.png') center center no-repeat;
+    background-size: contain;
+    z-index: -1;
+  }
+
+  header {
+    background: rgb(248, 3, 3);
+    color: white;
+    padding: 18px 16px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+  }
+
+  .brand { font-weight: 700; font-size: 18px; }
+  .controls { display: flex; gap: 8px; align-items: center; }
+  .search { padding: 8px 10px; border-radius: 8px; border: 0; min-width: 160px; }
+
+  .container {
+    max-width: 1000px;
+    margin: 12px auto;
+    padding: 16px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .big-ad {
+    background: #f59c28;
+    border: 2px solid #ffb75e;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #8a3d00;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    font-size: 17px;
+  }
+  .big-ad small {
+    font-size: 13px;
+    color: #444;
+    display: block;
+    margin-top: 8px;
+  }
+
+  .categories { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+  .cat-btn {
+    padding: 8px 10px;
+    border-radius: 999px;
+    border: 1px solid #eee;
+    background: #fafafa;
+    cursor: pointer;
+  }
+  .cat-btn.active { background: #b33; color: #fff; border-color: #b33; }
+
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  @media (max-width: 600px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+
+  .card {
+    background: linear-gradient(180deg,#f8a202,#faa742);
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    min-height: 110px;
+  }
+
+  .thumb { width: 72px; height: 72px; border-radius: 8px; flex: 0 0 72px; object-fit: cover; background: #eee; aspect-ratio: 1/1; }
+  .info { flex:1; }
+  .title { font-weight:600; }
+  .desc { color:#666; font-size:13px; margin-top:6px; }
+  .price { font-weight:700; color:#b33; margin-left:8px; }
+  .tags { margin-top:6px; display:flex; gap:6px; flex-wrap:wrap; }
+  .tag { background:#f55004; border:1px solid #eee; padding:4px 6px; border-radius:6px; font-size:12px; color:#fcf9f9; }
+  .footer-note { margin-top:14px; color:#666; font-size:13px; }
+
+  .promo {
+    display:flex;
+    gap:12px;
+    align-items:center;
+    justify-content:space-between;
+    background: rgba(255,255,255,0.92);
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 22px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    font-size:14px;
+    color:#222;
+  }
+  .promo small { font-size:12px; color:#555; }
+
+  .promo .badge {
+    background: linear-gradient(180deg,#b33,#8a2323);
+    color: #fff;
+    padding:6px 10px;
+    border-radius:8px;
+    font-weight:700;
+    font-size:13px;
+    white-space:nowrap;
+  }
+  .promo .cta a {
+    background:#1da1f2;
+    color:#0c1bec;
+    padding:8px 12px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+  }
+
+  @media (max-width: 520px) {
+    .promo { flex-direction: column; align-items:flex-start; }
+    .promo .cta a { width:100%; text-align:center; }
+  }
+
+  .tiny-ad {
+    text-align:center;
+    font-size:13px;
+    color:#555;
+    margin:28px 0 14px;
+  }
+</style>
+</head>
+<body>
+  <div class="dar-bg"></div>
+
+  <header>
+    <div class="brand">Közde Pide & Lahmacun Salonu - Menü</div>
+    <div class="controls">
+      <input id="search" class="search" placeholder="Ürün ara (örn: Lahmacun)" />
+      <button id="langBtn" class="cat-btn">TR</button>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="big-ad">
+      Özel siparişleriniz için:<br>
+       📞 <a href="tel:05521821878"><strong>05521821878</strong></a><br>
+      <a class="ig-btn" href="https://instagram.com/közdepidesafranbolu" target="_blank">
+  📸 közdepidesafranbolu
+</a>
+
+      <small>Cenaze · Mevlit · Söz · Özel gün </small>
+    </div>
+
+    <div id="categories" class="categories"></div>
+    <div id="grid" class="grid"></div>
+    <div class="footer-note">Menü güncel: <span id="updated">—</span></div>
+
+    <div class="promo" role="region">
+      <div class="left">
+        <div class="badge">İşletme Çözümleri</div>
+        <div class="text">
+          <strong>Siz de internet sitesi veya dijital menü yaptırmak isterseniz</strong>
+          <div><small>Hızlı teslim · Temiz tasarım · Uygun fiyat</small></div>
+        </div>
+      </div>
+
+      <div class="cta">
+        <a href="https://instagram.com/thehan_03" target="_blank">@thehan_03</a>
+      </div>
+    </div>
+
+    <div class="tiny-ad">
+      Bu menü profesyonel yazılım altyapısı ile hazırlanmıştır.
+    </div>
+
+  </main>
+
+<script>
+const state = { menu: [], categories: [], activeCat: 'all', lang: 'tr', updated: null };
+
+async function loadMenu(){
+  try{
+    const res = await fetch('menu.json',{cache:'no-store'});
+    const data = await res.json();
+    state.menu = data.items || [];
+    state.updated = data.updated || null;
+    buildCategories();
+    render();
+  }catch(e){
+    console.error(e);
+    document.getElementById('grid').innerHTML='<div style="padding:20px;color:#a00">Menü yüklenemedi</div>';
+  }
+}
+
+function buildCategories(){
+  const cats = new Set(['Tümü']);
+  state.menu.forEach(i=>cats.add(i.category || 'Diğer'));
+  state.categories = Array.from(cats);
+  const container=document.getElementById('categories'); container.innerHTML='';
+  state.categories.forEach(cat=>{
+    const btn=document.createElement('button');
+    btn.className='cat-btn'+(cat=== (state.activeCat==='all'?'Tümü':state.activeCat)?' active':'');
+    btn.textContent=cat;
+    btn.onclick=()=>{
+      state.activeCat=(cat==='Tümü'?'all':cat);
+      document.querySelectorAll('.cat-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      render();
+    };
+    container.appendChild(btn);
+  });
+}
+
+function render(){
+  const q=(document.getElementById('search').value||'').trim().toLowerCase();
+  const grid=document.getElementById('grid');
+
+  const filtered=state.menu.filter(item=>{
+    if(item.special) return false; // özel siparişleri gizle
+    if(state.activeCat!=='all' && (item.category || 'Diğer')!==state.activeCat) return false;
+    if(!q) return true;
+    return (item.name||'').toLowerCase().includes(q) || 
+           (item.desc||'').toLowerCase().includes(q) ||
+           (item.tags||[]).join(' ').toLowerCase().includes(q);
+  });
+
+  if(state.updated) document.getElementById('updated').textContent=state.updated;
+
+  if(filtered.length===0){
+    grid.innerHTML='<div style="padding:18px;color:#666">Sonuç bulunamadı.</div>';
+    return;
+  }
+
+  grid.innerHTML='';
+  filtered.forEach(it=>{
+    const card=document.createElement('div'); 
+    card.className='card';
+
+    const img=document.createElement('img'); 
+    img.className='thumb';
+    img.alt=it.name;
+    img.src=it.image || 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72"><rect width="100%" height="100%" fill="%23eee"/></svg>';
+
+    const info=document.createElement('div'); 
+    info.className='info';
+
+    info.innerHTML=
+      `<div style="display:flex;justify-content:space-between;align-items:center">
+          <div>
+            <div class="title">${escapeHtml(it.name)}</div>
+            <div class="desc">${escapeHtml(it.desc||'')}</div>
+          </div>
+          <div class="price">${escapeHtml(it.price)}</div>
+       </div>`;
+
+    const tags=document.createElement('div'); 
+    tags.className='tags';
+    (it.tags||[]).forEach(t=>{
+      const tt=document.createElement('span'); 
+      tt.className='tag'; 
+      tt.textContent=t; 
+      tags.appendChild(tt);
+    });
+
+    info.appendChild(tags);
+    card.appendChild(img);
+    card.appendChild(info);
+    grid.appendChild(card);
+  });
+}
+
+function escapeHtml(s){
+  return String(s||'')
+  .replace(/&/g,'&amp;')
+  .replace(/</g,'&lt;')
+  .replace(/>/g,'&gt;');
+}
+
+document.getElementById('search').addEventListener('input',render);
+
+document.getElementById('langBtn').addEventListener('click',()=>{
+  state.lang = state.lang === 'tr' ? 'en' : 'tr';
+  document.getElementById('langBtn').textContent = state.lang.toUpperCase();
+});
+
+loadMenu();
+</script>
+
+</body>
+</html>
