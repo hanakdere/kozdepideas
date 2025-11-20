@@ -194,7 +194,7 @@
       "name": "Küçük Ayran",
       "category": "Soğuk İçecekler",
       "price": "15₺",
-      "image": "kuşburnu.jpg",
+      "image": "küçükayran.jpg",
       "desc": "Vitamin deposu",
       "tags": ["soğuk","meyve"]
     },
@@ -202,7 +202,7 @@
       "name": "Büyük Ayran",
       "category": "Soğuk İçecekler",
       "price": "20₺",
-      "image": "nanelimon.jpeg",
+      "image": "büyükayran.jpeg",
       "desc": "Ferahlatıcı içecek",
       "tags": ["soğuk","meyve"]
     },
@@ -213,14 +213,6 @@
       "image": "su.jpg",
       "desc": "Mineralli su",
       "tags": ["soğuk"]
-    },
-    {
-      "name": "Meyve Suyu",
-      "category": "Soğuk İçecekler",
-      "price": "20₺",
-      "image": "küçükmeyv.avif",
-      "desc": "Çeşitli meyve suları",
-      "tags": ["soğuk","meyve"]
     },
     {
       "name": "Litrelik Kola",
